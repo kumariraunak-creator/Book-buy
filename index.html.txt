@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book&Buy | Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="box">
+  <h1>Book&Buy</h1>
+  <p>Campus Marketplace</p>
+
+  <input type="text" id="email" placeholder="College Email">
+  <input type="password" id="password" placeholder="Password">
+
+  <button onclick="login()">Login</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

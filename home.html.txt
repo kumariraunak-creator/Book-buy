@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book&Buy | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2 class="heading">Available Items</h2>
+
+<div class="items">
+  <div class="card">
+    <h3>DSA Book</h3>
+    <p>₹250</p>
+    <button onclick="goChat()">Chat Seller</button>
+  </div>
+
+  <div class="card">
+    <h3>Calculator</h3>
+    <p>₹500</p>
+    <button onclick="goChat()">Chat Seller</button>
+  </div>
+</div>
+
+<a href="addItem.html" class="link">Sell an Item</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>

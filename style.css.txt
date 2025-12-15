@@ -1,0 +1,72 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+}
+
+.box {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px gray;
+}
+
+input, textarea {
+  width: 90%;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #2c7be5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1a5fd0;
+}
+
+.heading {
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 0 5px gray;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.chatbox {
+  width: 350px;
+  margin: 50px auto;
+  background: white;
+  padding: 15px;
+}
+
+#chat {
+  height: 150px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 5px;
+  overflow-y: auto;
+}

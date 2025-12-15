@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book&Buy | Sell Item</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>Add Item</h2>
+
+  <input type="text" placeholder="Item Name">
+  <input type="text" placeholder="Category">
+  <input type="number" placeholder="Price">
+  <textarea placeholder="Description"></textarea>
+
+  <button onclick="addItem()">Add Item</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
